@@ -7,7 +7,7 @@
   :version "0.0.1"
   :serial t
   :components ((:file "util")
-               (:file "polymorph.stl"))
+               (:file "package"))
 
   :depends-on (#:polymorph.copy-cast
 	       #:polymorph.utility
