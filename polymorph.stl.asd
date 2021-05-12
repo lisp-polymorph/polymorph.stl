@@ -6,10 +6,11 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
-  :components ((:file "util")
-               (:file "package"))
+  :components ((:file "package"))
 
   :depends-on (#:polymorph.copy-cast
-	       #:polymorph.utility
 	       #:polymorph.access
-	       #:polymorph.maths))
+	       #:polymorph.maths
+	       #:polymorph.macros
+	       #:polymorph.traversable
+	       #:polymorph.data-structures))
