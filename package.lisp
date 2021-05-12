@@ -14,4 +14,7 @@
   (:reexport #:polymorph.copy-cast
 	     #:polymorph.access
 	     #:polymorph.maths
+	     #:polymorph.macros
+	     #:polymorph.traversable
+	     #:polymorph.data-structures
 	     #:common-lisp))
