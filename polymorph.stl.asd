@@ -9,8 +9,8 @@
   :components ((:file "package"))
 
   :depends-on (#:polymorph.copy-cast
-	       #:polymorph.access
-	       #:polymorph.maths
-	       #:polymorph.macros
-	       #:polymorph.traversable
-	       #:polymorph.data-structures))
+               #:polymorph.access
+               #:polymorph.maths
+               #:polymorph.macros
+               #:polymorph.traversable
+               #:polymorph.data-structures))
