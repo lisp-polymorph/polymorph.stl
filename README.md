@@ -6,7 +6,7 @@ It may look like the whole thing consists of too many systems that are too small
 
 
 # Implementations support
-It currently works (i.e without overhead) anywhere, where [adhoc polymorphic functions](https://github.com/digikar99/adhoc-polymorphic-functions) work. Cltl2 support is the most important thing.
+It currently works  anywhere, where [adhoc polymorphic functions](https://github.com/digikar99/adhoc-polymorphic-functions) work. Cltl2 support is the most important thing.
 
 
 # Overview
