@@ -11,27 +11,27 @@ It currently works (i.e without overhead) anywhere, where [adhoc polymorphic fun
 
 # Overview
 
-(Note: not everything here is implemented yet, so this is also a roadmap)
-
 ## Systems
 ### Maths
 Ad hoc polymorphic: 
 - Arithmetic operators `+`,`-`, `*`, `/`
 - Equality operators `=`, `/=`
 - Inequality operators `>`,`>=`, `<`,`<=`
+
 Parametric polymorphic:
 - `min` and `max` (based on `<`, currently any kind of parametric polymorphism is just a convention)
 
 
 ### Copy-cast
-As name suggests:
 Ad hoc polymorphic:
 - `cast` function, similar to `coerce`.
 - `copy`, currently two versions: `deep-copy` and `shallow-copy`
+
 Will probably be refactored to have ad-hoc `copy` and parametric deep/shallow versions.
 
 ### Access
 Accessors to different properties.
+
 Ad hoc polymorphic:
 - `at` function, an extended version of `elt`.
 - `front/back`, first and last element of the container whenever that makes sense. Are SETDable.
@@ -49,7 +49,7 @@ A simplification of `defstruct` that fills in default values using `default` and
 Utility functions, may or may not be exported at all.
 - `default` Returns a reasonable default object for a given type.
 - `ind` Index type.
-- `%form-type` and `with-array-info`. Formt-type determines type of the form in the given environment. Will not be exported, use cl-form-type instead.
+- `%form-type` and `with-array-info`. Form-type determines type of the form in the given environment. Will not be exported, use cl-form-type instead.
 
 ### Data structures
 WIP. Will have at least maps (RB tree based), deques (array based) and double linked lists.
