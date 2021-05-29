@@ -13,4 +13,20 @@
                #:polymorph.maths
                #:polymorph.macros
                #:polymorph.traversable
-               #:polymorph.data-structures))
+               #:polymorph.data-structures)
+
+  :in-order-to ((asdf:test-op (asdf:test-op :polymorph.stl/test))))
+
+(asdf:defsystem #:polymorph.stl/test
+  :description "Unit tests for polymorph.stl"
+  :serial t
+  :depends-on (#:polymorph.stl
+               #:polymorph.maths/test
+               #:polymorph.access/test
+               #:polymorph.copy-cast/test
+               #:fiveam)
+
+  :components ((:file "test"))
+
+  :perform (test-op (o s)
+                    (uiop:symbol-call '#:polymorph.stl/test '#:test-polymorph.stl)))
