@@ -6,7 +6,7 @@ It may look like the whole thing consists of too many systems that are too small
 
 
 # Implementations support
-It currently works  anywhere, where [adhoc polymorphic functions](https://github.com/digikar99/adhoc-polymorphic-functions) work. Cltl2 support is the most important thing.
+It currently works anywhere [adhoc polymorphic functions](https://github.com/digikar99/adhoc-polymorphic-functions) work. Cltl2 support is the most important thing.
 
 
 # Overview
@@ -19,28 +19,28 @@ Ad hoc polymorphic:
 - `>`,`>=`, `<`,`<=` are inequality operators 
 
 Parametric polymorphic:
-- `min` and `max` are based on `<` (currently any kind of parametric polymorphism is just a convention).
+- `min` and `max` are based on `<` and `>` (currently any kind of parametric polymorphism is just a convention).
 
 
 ### Copy-cast
 Ad hoc polymorphic:
-- `cast` function, similar to `coerce`.
-- `copy` currently two versions: `deep-copy` and `shallow-copy`
+- `cast` function is similar to `coerce`.
+- `copy` currently has two versions: `deep-copy` and `shallow-copy`
 
-Warning, these will probably be refactored to have ad-hoc `copy` and parametric deep/shallow versions.
+Warning, these will probably be refactored to have ad-hoc `copy` and parametric `deep`/`shallow` versions.
 
 ### Access
 Accessors to different properties.
 
 Ad hoc polymorphic:
 - `at` function is an extended version of `elt`.
-- `front/back` are the first and last element of the container whenever that makes sense. Are SETFable.
-- `emptyp`,`size` and `capacity` deal with container sizes.
+- `front/back` are the first and last elements of the container whenever that makes sense. Are SETFable.
+- `emptyp`,`size`, `capacity` deal with container sizes.
 
 ### Macros
 While there are currently no "polymorphic" macros, these macros are useful for the style of development this system suggests.
-- `zapf` is for updating values value in place using its previous value. IS a generalization of macros like `incf` or `decf`.
-- `bind*` unites 3 things: `let*`, `multiple-value-bind` and builtin type declarations. Uses `default` for filling out the values if type was provided, otherwise defaults to `nil`.
+- `zapf` is for updating values value in place using its previous value. It is a generalization of macros like `incf` or `decf`.
+- `bind*` unites 3 things: `let*`, `multiple-value-bind`, and builtin type declarations. Uses `default` for filling out the values if type was provided, otherwise defaults to `nil`.
 - `define-struct` is a simplification of `defstruct` that fills in default values using `default` and given types. It has accessors for slots defined via defpolymorph and is able to do simple inheritance. Very much alpha version, the name may change.
 
 ### Utility
