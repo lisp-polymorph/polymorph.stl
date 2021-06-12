@@ -16,5 +16,6 @@
 	     #:polymorph.maths
 	     #:polymorph.macros
 	     #:polymorph.traversable
+             #:polymorph.callable
 	     #:polymorph.data-structures
 	     #:common-lisp))
