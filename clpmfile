@@ -1,0 +1,14 @@
+;;; -*- Mode: common-lisp; -*-
+(:api-version "0.3")
+
+(:source "quicklisp" :url "https://quicklisp.common-lisp-project-index.org/" :type :ql-clpi)
+
+(:asd "polymorph.stl.asd")
+
+(:github "polymorph.copy-cast" :path "lisp-polymorph/polymorph.copy-cast" :branch "master")
+(:github "polymorph.access" :path "lisp-polymorph/polymorph.access" :branch "master")
+(:github "polymorph.maths" :path "lisp-polymorph/polymorph.maths" :branch "master")
+(:github "polymorph.macros" :path "lisp-polymorph/polymorph.macros" :branch "master")
+(:github "polymorph.traversable" :path "lisp-polymorph/polymorph.traversable" :branch "master")
+(:github "polymorph.callable" :path "lisp-polymorph/polymorph.callable" :branch "master")
+(:github "polymorph.data-structures" :path "lisp-polymorph/polymorph.data-structures" :branch "master")
