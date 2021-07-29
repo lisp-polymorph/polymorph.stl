@@ -6,13 +6,13 @@
 ;;; COMMON-LISP package.
 
 (uiop:define-package #:polymorph.stl
-    (:use :common-lisp)
+  (:use :common-lisp)
 
   (:reexport #:polymorph.copy-cast
-	     #:polymorph.access
-	     #:polymorph.maths
-	     #:polymorph.macros
-	     #:polymorph.traversable
+             #:polymorph.access
+             #:polymorph.maths
+             #:polymorph.macros
+                                        ;#:polymorph.traversable
              #:polymorph.callable
-	     #:polymorph.data-structures
-	     #:common-lisp))
+                                        ;#:polymorph.data-structures
+             #:common-lisp))

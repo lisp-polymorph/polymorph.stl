@@ -12,9 +12,9 @@
                #:polymorph.access
                #:polymorph.maths
                #:polymorph.macros
-               #:polymorph.traversable
-               #:polymorph.callable
-               #:polymorph.data-structures)
+               ;#:polymorph.traversable
+               #:polymorph.callable)
+               ;#:polymorph.data-structures)
 
   :in-order-to ((asdf:test-op (asdf:test-op :polymorph.stl/test))))
 
