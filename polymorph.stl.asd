@@ -1,10 +1,9 @@
 ;;;; polymorph.stl.asd
 
 (asdf:defsystem #:polymorph.stl
-  :description "Describe polymorph.stl here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
-  :version "0.0.1"
+  :description "All polymorph systems united"
+  :license  "MIT"
+  :version "0.2"
   :serial t
   :components ((:file "package"))
 
@@ -12,7 +11,7 @@
                #:polymorph.access
                #:polymorph.maths
                #:polymorph.macros
-               ;#:polymorph.traversable
+               #:polymorph.traversable
                #:polymorph.callable)
                ;#:polymorph.data-structures)
 

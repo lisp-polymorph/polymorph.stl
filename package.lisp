@@ -12,7 +12,7 @@
              #:polymorph.access
              #:polymorph.maths
              #:polymorph.macros
-                                        ;#:polymorph.traversable
+             #:polymorph.traversable
              #:polymorph.callable
-                                        ;#:polymorph.data-structures
+             ;#:polymorph.data-structures
              #:common-lisp))
