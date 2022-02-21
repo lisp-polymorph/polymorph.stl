@@ -11,8 +11,8 @@
                #:polymorph.access
                #:polymorph.maths
                #:polymorph.macros
-               #:polymorph.traversable
-               #:polymorph.callable)
+               #:polymorph.traversable)
+               ;#:polymorph.callable)
                ;#:polymorph.data-structures)
 
   :in-order-to ((asdf:test-op (asdf:test-op :polymorph.stl/test))))
@@ -24,7 +24,7 @@
                #:polymorph.maths/test
                #:polymorph.access/test
                #:polymorph.copy-cast/test
-               #:polymorph.callable/test
+               ;#:polymorph.callable/test
                #:fiveam)
 
   :components ((:file "test"))

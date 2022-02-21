@@ -8,7 +8,8 @@
 (uiop:define-package #:polymorph.stl
   (:use)
 
-  (:mix #:polymorph.copy-cast
+  (:mix #:polymorphic-functions
+        #:polymorph.copy-cast
         #:polymorph.access
         #:polymorph.maths
         #:polymorph.macros
@@ -16,7 +17,8 @@
         #:polymorph.callable
         #:common-lisp)
 
-  (:reexport #:polymorph.copy-cast
+  (:reexport #:polymorphic-functions
+             #:polymorph.copy-cast
              #:polymorph.access
              #:polymorph.maths
              #:polymorph.macros
