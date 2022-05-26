@@ -5,8 +5,8 @@
         #:fiveam
         #:polymorph.maths/test
         #:polymorph.access/test
-        #:polymorph.copy-cast/test
-        #:polymorph.callable/test)
+        #:polymorph.copy-cast/test)
+        ;#:polymorph.callable/test)
 
   (:export #:test-polymorph.stl))
 
@@ -19,5 +19,5 @@
    (append
     (run 'polymorph.maths)
     (run 'polymorph.access)
-    (run 'polymorph.copy-cast)
-    (run 'polymorph.callable))))
+    (run 'polymorph.copy-cast))))
+    ;(run 'polymorph.callable))))
