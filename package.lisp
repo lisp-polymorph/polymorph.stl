@@ -14,7 +14,7 @@
         #:polymorph.maths
         #:polymorph.macros
         #:polymorph.traversable
-        #:polymorph.callable
+        ;#:polymorph.callable
         #:common-lisp)
 
   (:reexport #:polymorphic-functions
@@ -23,5 +23,5 @@
              #:polymorph.maths
              #:polymorph.macros
              #:polymorph.traversable
-             #:polymorph.callable
+             ;#:polymorph.callable
              #:common-lisp))
