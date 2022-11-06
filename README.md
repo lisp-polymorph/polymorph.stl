@@ -80,12 +80,17 @@ Tests are distributed throughout the system. Run `(asdf:test-system 'polymorph.s
 
 ### Related Projects
 [generic-cl](https://github.com/alex-gutev/generic-cl)
+
 [polymorphic-functions](https://github.com/digikar99/polymorphic-functions)
+
 [extensible-compound-types](https://github.com/digikar99/extensible-compound-types)
+
 [cl-form-types](https://github.com/alex-gutev/cl-form-types)
+
 [ctype](https://github.com/s-expressionists/ctype)
 
 
 ### Acknowledgements
 [Alex Gutev](https://github.com/alex-gutev/) for inspiration and immense help with testing all the systems, as well as coauthoring `polymorph.traversable/callable`.
+
 [Shubhamkar Ayare](https://github.com/digikar99) for providing the backend for this library. Without his efforts it would not be possible. His initial motivation for polymorphic-functions came from his library [dense-arrays](https://github.com/digikar99/dense-arrays), check it out.
